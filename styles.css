@@ -92,7 +92,7 @@ text-decoration: none;}
 
 
 /* Media query for small screens */
-@media (Max-width: 720px) {
+@media (Max-width: 1080px) {
 
 /* Tag elements */
   body{
