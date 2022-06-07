@@ -6,7 +6,7 @@ body{
 }
 h1{
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4.9rem;
   margin-bottom: 50px;
   color:  hsl(0, 0%, 8%);
 }
@@ -84,7 +84,7 @@ padding: 15% 5% 15% 25%;
 text-decoration: none;}
 
 .client{
-  padding-top: 27%;
+  padding-top: 32%;
 }
 .client-img{
   margin-right: 25px;
