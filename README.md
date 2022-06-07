@@ -52,4 +52,4 @@ I learnt how to use Bootstrap to create dropdowns
 I really would love to focus more on JavaScript and frameworks
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Tobi](https://www.frontendmentor.io/profile/Tobi)
