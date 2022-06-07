@@ -121,23 +121,21 @@ text-decoration: none;}
     content: url("images/image-hero-mobile.png");
   }
   .title-img{
-    position: absolute;
+    position: static;
     top: 100%;
-    right: 7%;
-    left: 3%;
     width: 94%;
     margin: 0;
     padding: 0;
   }
   .attribution { font-size: 11px;
     position: absolute;
-    top: 1000%;
+    top: 240%;
     left: 0;
     right: 0;
   }
   .container-fluid{
     position: absolute;
-    top: 445%;
+    top: 110%;
   padding: 7%;
   }
 
