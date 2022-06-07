@@ -1,0 +1,171 @@
+/* Tag elements */
+body{
+  font-family: 'Epilogue';
+  background-color:  hsl(0, 0%, 98%);
+  position: relative;
+}
+h1{
+  font-weight: 700;
+  font-size: 4.5rem;
+  margin-bottom: 50px;
+  color:  hsl(0, 0%, 8%);
+}
+p{
+  font-size: 18px;
+  padding: 0 50px 40px 0;
+  color: hsl(0, 0%, 41%);
+}
+
+
+
+/* Navigation */
+.navbar{
+  margin: 1% 2%;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-right: 40px;
+}
+.nav-item{
+  margin: 0 15px;
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav-link:hover{
+  color:  hsl(0, 0%, 8%);
+}
+
+
+
+/* Dropdown */
+.dropdown-img{
+  margin-right: 20px;
+}
+.rem{
+  margin-right: 23px;
+}
+
+
+
+/* Buttons */
+.btn{
+  border-radius: .8rem;
+  padding: 10px 20px;
+}
+.btn:hover{
+  background-color: hsl(0, 0%, 98%);
+  color:  hsl(0, 0%, 8%);
+}
+.btn-reg{
+  position: absolute;
+  right: 2%;
+  top: 20px;
+}
+.login{
+  margin-right: 105px;
+}
+
+
+
+/* Title page */
+.container-fluid{
+padding: 15% 5% 15% 25%;
+}
+.title-img{
+  width: 70%;
+  margin: 35px 0 0 80px;
+  padding-bottom: 200px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+text-decoration: none;}
+
+.client{
+  padding-top: 27%;
+}
+.client-img{
+  margin-right: 25px;
+}
+
+
+/* Media query for small screens */
+@media (Max-width: 720px) {
+
+/* Tag elements */
+  body{
+    text-align: center;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+
+/* Navigation */
+.nav-item{
+ text-align: left;
+}
+
+
+
+  /* Title */
+  .title-text{
+    font-size: 2.1rem;
+    margin-bottom: 15px;
+  }
+  #main-img{
+    content: url("images/image-hero-mobile.png");
+  }
+  .title-img{
+    position: absolute;
+    top: 100%;
+    right: 7%;
+    left: 3%;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+  }
+  .attribution { font-size: 11px;
+    position: absolute;
+    top: 1000%;
+    left: 0;
+    right: 0;
+  }
+  .container-fluid{
+    position: absolute;
+    top: 445%;
+  padding: 7%;
+  }
+
+
+
+
+  /* Buttons */
+  .btn-reg{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+
+/* Anchor tag class */
+.login{
+  margin-right: 0;
+  text-align: center;
+}
+
+
+/* Client edit */
+.client{
+  padding-top: 15%;
+}
+.client-img{
+  width: 20%;
+  margin: 5px;
+}
+
+}
